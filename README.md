@@ -1,6 +1,8 @@
 # Mock semaphore using Raspberry Pi Pico
 
-This small Raspberry Pi Pico project aim to simulate a traffic semaphore. After a set amount of time, the vehicle semaphore will switch between red, yellow and green. The pedestrian semaphore will stay on red until a pedestrian request to cross. When a request is made, the wait led for pedestrians is trigger(yellow), the vehicle semaphore will be set on red and the pedestrian semaphore will be set on green. A buzzer will beep for the whole period when pedestrians are allowed to cross the street
+This is my indivitual project which I have presented during the spring semester at Bábes Bolyai University in the 3rd year of my Bachelor's degree studies.
+
+This small Raspberry Pi Pico project aims to simulate a traffic semaphore. After a set amount of time, the vehicle semaphore will switch between red, yellow and green. The pedestrian semaphore will stay on red until a pedestrian request to cross. When a request is made, the wait led for pedestrians is trigger(yellow), the vehicle semaphore will be set on red and the pedestrian semaphore will be set on green. A buzzer will beep for the whole period when pedestrians are allowed to cross the street
 
 ## Pre-requisites
 * Raspberry Pi Pico
